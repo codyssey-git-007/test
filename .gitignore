@@ -1,0 +1,16 @@
+# macOS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Python (유틸 함수 결과물 선택 시에도 사용 가능)
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# secrets
+.env
+.env.*
+!.env.example
